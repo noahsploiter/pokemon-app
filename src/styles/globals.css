@@ -31,7 +31,7 @@ body {
 
 .search-form .input-control input {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: .5rem 0.4rem;
   outline: none;
   border-radius: 12px;
   background-color: #fafafa;
@@ -205,6 +205,9 @@ body {
     width: 28rem;
     margin-bottom: 2rem;
   }
+  .search-form .input-control input {
+    padding: 1rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -212,5 +215,8 @@ body {
     position: relative;
     width: 37rem;
     margin-bottom: 2rem;
+  }
+  .search-form .input-control input {
+    padding: 1rem 2rem;
   }
 }

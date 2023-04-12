@@ -1,3 +1,4 @@
+
 .PokemonBg {
     position: absolute;
     top: 50%;
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: center;
     height: 300px;
+    margin-top: 70px;
   }
   
   .PokemonImage img {
